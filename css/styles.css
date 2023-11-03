@@ -72,7 +72,7 @@ select:-webkit-autofill:focus {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     padding-left: 50px;
     padding-right: 50px;
     margin-right: auto;
@@ -83,4 +83,40 @@ select:-webkit-autofill:focus {
 
 main {
     flex-grow: 1;
+}
+
+/* SITE-HEADER */
+.site-header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.site-header__container {
+    display: flex;
+    align-items: center;
+}
+
+.site-header__img {
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.site-header__info {
+    flex-grow: 1;
+}
+
+.site-header__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.site-header__subtitle {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.site-header a {
+    text-decoration: none;
 }
